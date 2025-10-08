@@ -8,7 +8,7 @@
 # - Uploads kaggle.json and sets permissions
 # - Defines dataset base paths for MIMIC-CXR data
 
-# 💾 2. Data Loading & Exploration
+# 2. Data Loading & Exploration
 # --------------------------------
 # - Loads CSV metadata files (train/validation)
 # - Uses Pandas DataFrames to inspect dataset structure
@@ -31,7 +31,7 @@
 # - Output layer: 1-channel sigmoid activation for binary segmentation
 # - Compiles model with Adam optimizer & binary crossentropy loss
 
-# 🧬 5. Segmentation Inference
+#  5. Segmentation Inference
 # ----------------------------
 # - Defines `preprocess_and_segment()`:
 #     → loads & normalizes image
@@ -39,7 +39,7 @@
 #     → thresholds and applies mask to original image
 # - Generates preprocessed dataset subset (`X_preprocessed`)
 
-# 👁️ 6. Visualization
+# 6. Visualization
 # --------------------
 # - Verifies valid file paths and sample images
 # - Displays grayscale X-rays with Matplotlib
@@ -51,7 +51,7 @@
 # - Ready for visualization, analysis, or further model training
 #
 # ============================================
-# Author: [Your Name]
-# Date: [Today's Date]
+# Author: [Rayadi Ayoub]
+# Date: [08/10/2025]
 # Environment: Google Colab + TensorFlow + OpenCV + Pandas
 # ============================================
